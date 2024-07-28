@@ -24,10 +24,12 @@ body {
 
 .hero {
 
+    background: url('./imag/bg.jpg') no-repeat center center;
     background-position: center;
     color: #fff;
     text-align: center;
     padding: 5rem 1rem;
+    position:relative
 }
 
 .hero h1 {
