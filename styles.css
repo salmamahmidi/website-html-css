@@ -88,20 +88,27 @@ body {
 }
 
 .product img, .plant img {
-    max-width: 100%;
-    height: auto;
+  width: 100%;
+    height: 304px;
 }
 
 .product p, .plant p {
     margin: 0.5rem 0;
 }
 
+
 .product button, .plant button {
+
     background-color: #ADD981;
     border: none;
     padding: 0.5rem 1rem;
     color: #fff;
     cursor: pointer;
+}
+.product button:hover, .plant button:hover{
+    background-color:#fff;
+    color:#ADD981;
+    border: 2px solid #ADD981;
 }
 
 .footer {
