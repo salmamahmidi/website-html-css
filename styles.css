@@ -118,6 +118,14 @@ body {
     text-decoration: none;
     color: #333;
 }
+.underline {
+    border-bottom: 2px solid #ADD981; 
+    display: inline-block;
+    line-height: 1;
+    padding-bottom: 2px; 
+}
+
+
 
 @media (max-width: 768px) {
     .services {
